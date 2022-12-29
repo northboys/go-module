@@ -51,7 +51,7 @@ type Client struct {
 }
 
 func (c *Client) FetchEverything(query, page string) (*Results, error) {
-	endpoint := fmt.Sprintf("Private-Token", "dy-dhycw-smEyExsYGGE", "https://keepo.mit.id/api/v4/projects/158/repository/branches", url.QueryEscape(query), c.PageSize, page, c.key)
+	endpoint := fmt.Sprintf("https://keepo.mit.id/api/v4/projects/158/repository/branches", url.QueryEscape(query), c.PageSize, page, c.key)
 	resp, err := c.http.Get(endpoint)
 	if err != nil {
 		return nil, err
