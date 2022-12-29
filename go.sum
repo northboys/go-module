@@ -1,0 +1,6 @@
+github.com/joho/godotenv v1.4.0 h1:3l4+N6zfMWnkbPEXKng2o2/MR5mSwTrBih4ZEkkz1lg=
+github.com/joho/godotenv v1.4.0/go.mod h1:f4LDr5Voq0i2e/R5DDNOoa2zzDfwtkZa6DnEwAbqwq4=
+github.com/northboys/go-module v0.0.0-20221229062335-2ffc003bfca7 h1:fDtVkpm5Y2rbw/Ak5TltjB0y6b4Yfr8IVDjr0In3RgY=
+github.com/northboys/go-module v0.0.0-20221229062335-2ffc003bfca7/go.mod h1:TajQKD5e1GNfkdcQy2Z2bMQlBWFSxA10JZN37LUuZyo=
+github.com/northboys/go-module v0.0.0-20221229071946-af95398c7683 h1:4PXi+8EaIv1Re0x4G5JkvP30VF5vJAcdUWv2igx3Dz4=
+github.com/northboys/go-module v0.0.0-20221229071946-af95398c7683/go.mod h1:TajQKD5e1GNfkdcQy2Z2bMQlBWFSxA10JZN37LUuZyo=
