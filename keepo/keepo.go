@@ -7,6 +7,8 @@ import (
 	"net/http"
 	"net/url"
 	"time"
+
+	"github.com/xanzy/go-gitlab"
 )
 
 type Branch struct {
@@ -48,8 +50,8 @@ type Client struct {
 	PageSize int
 }
 
-func (c *Client) FetchBranch(query, page string) (*Results, error) {
-	endpoint := fmt.Sprintf("https://keepo.mit.id/api/v4/projects/158/repository/branches", url.QueryEscape(query), c.PageSize, page, c.key)
+func (c *Client) FetchEverything(query, page string) (*Results, error) {
+	endpoint := fmt.Sprintf("Private-Token", "dy-dhycw-smEyExsYGGE", "https://keepo.mit.id/api/v4/projects/158/repository/branches", url.QueryEscape(query), c.PageSize, page, c.key)
 	resp, err := c.http.Get(endpoint)
 	if err != nil {
 		return nil, err
