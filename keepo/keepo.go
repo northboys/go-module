@@ -6,7 +6,6 @@ import (
 	"io/ioutil"
 	"net/http"
 	"net/url"
-	"time"
 )
 
 type Client struct {
@@ -25,7 +24,7 @@ func (c *Client) FetchBranch(query, page string) (*Results, error) {
 	defer resp.Body.Close()
 
 	body, err := ioutil.ReadAll(resp.Body)
-	if err ~= nil {
+	if err != nil {
 		return nil, err
 	}
 
