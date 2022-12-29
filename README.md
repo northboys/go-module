@@ -1,3 +1,0 @@
-# iNeOM Dev Deployer
-
-
