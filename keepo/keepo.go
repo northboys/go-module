@@ -7,8 +7,6 @@ import (
 	"net/http"
 	"net/url"
 	"time"
-
-	"github.com/xanzy/go-gitlab"
 )
 
 type Branch struct {
